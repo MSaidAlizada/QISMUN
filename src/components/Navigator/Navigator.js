@@ -13,7 +13,7 @@ const Navigator = () => {
             <CssBaseline />
             <Drawer variant="permanent" anchor="left" sx={{width: drawerWidth,flexShrink: 0,[`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' },}}>
                 <Box sx={{paddingTop: 3}}>
-                    <Divider sx={{ backgroundColor: "#6b87b1 "}} style={{height: 15, borderRadius: 10, width: 250, margin: "auto"}}/>
+                    <Divider sx={{ backgroundColor: "#6b87b1"}} style={{height: 15, borderRadius: 10, width: 250, margin: "auto"}}/>
                     <List>
                         <ListItem>
                             <ListItemButton component={Link} to="/" sx={{justifyContent: "center"}}>
