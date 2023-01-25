@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Qismun/static/css/main.2171a896.css",
+    "main.js": "/Qismun/static/js/main.a73daf33.js",
+    "static/media/bossman.png": "/Qismun/static/media/bossman.139bde3209535b1f2d4b.png",
+    "index.html": "/Qismun/index.html",
+    "main.2171a896.css.map": "/Qismun/static/css/main.2171a896.css.map",
+    "main.a73daf33.js.map": "/Qismun/static/js/main.a73daf33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2171a896.css",
+    "static/js/main.a73daf33.js"
+  ]
+}
