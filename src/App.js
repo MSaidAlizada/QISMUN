@@ -16,12 +16,14 @@ function App() {
     <div className="App">
       <div style={{ marginLeft: marg }}>
         <BrowserRouter>
-          <Navigator/>
-          <Routes>
-            <Route path="/Qismun/" element={<Home />}></Route>
-            <Route path="/Qismun/about" element={<AboutUs />} />
-            <Route path="/Qismun/press" element={<Press/>} />
-          </Routes>
+          <Navigator />
+          <div style={{display: "flex", flexDirection: "column", minHeight: "100vh"}}>
+            <Routes>
+              <Route path="/Qismun/" element={<Home />}></Route>
+              <Route path="/Qismun/about" element={<AboutUs />} />
+              <Route path="/Qismun/press" element={<Press/>} />
+            </Routes>
+          </div>
           {isMobile ? (<Footer/>) : (<></>)}
         </BrowserRouter>
       </div> 
