@@ -1,0 +1,16 @@
+td, th {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+table {
+    background-color: #3a5066;
+    border-radius: 10px;
+    border-spacing: 5px;
+}
+
+tr {
+    background-color: #5a748d;
+    border-radius: 10px;
+    font-size: small;
+}

@@ -4,11 +4,12 @@ import { BrowserRouter,Routes, Route } from "react-router-dom";
 import Navigator from "./components/Navigator/Navigator";
 import Home from "./components/Home/Home";
 import AboutUs from "./components/AboutUs/AboutUs";
+import Conference from "./components/Conference/Conference";
 import Press from "./components/Press/Press";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-  var marg = "280px"
+  var marg = "270px"
   if (isMobile) {
     marg = "0px"
   }
@@ -21,6 +22,7 @@ function App() {
             <Routes>
               <Route path="/Qismun/" element={<Home />}></Route>
               <Route path="/Qismun/about" element={<AboutUs />} />
+              <Route path="/Qismun/conference" element={<Conference/>} />
               <Route path="/Qismun/press" element={<Press/>} />
             </Routes>
           </div>

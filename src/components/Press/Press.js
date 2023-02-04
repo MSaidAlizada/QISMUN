@@ -3,8 +3,8 @@ import { Typography } from "@mui/material";
 
 const Press = () => {
     return ( 
-        <div>
-            <Typography variant="h3" sx={{color :"white", fontFamily: "STIX TWO TEXT"}}>Press</Typography>
+        <div style={{margin: 16}}>
+            <Typography variant="h2" sx={{color :"white", fontFamily: "STIX TWO TEXT", fontWeight: 600}}>Press</Typography>
         </div>
      );
 }
