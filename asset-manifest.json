@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/Qismun/static/css/main.eb7b3077.css",
-    "main.js": "/Qismun/static/js/main.2a12556c.js",
-    "static/media/dinugadesilva.png": "/Qismun/static/media/dinugadesilva.90f91e22a9271e895218.png",
-    "static/media/hajira.png": "/Qismun/static/media/hajira.6bfc24aab4e7c663b591.png",
-    "static/media/sarah.png": "/Qismun/static/media/sarah.9376795dad73a48a3968.png",
-    "static/media/khansa.png": "/Qismun/static/media/khansa.06e527d4c26703969248.png",
+    "main.js": "/Qismun/static/js/main.3cf21301.js",
+    "static/media/aaraon.png": "/Qismun/static/media/aaraon.d9e82fa4b4f3ab0495c7.png",
+    "static/media/bayyopane.png": "/Qismun/static/media/bayyopane.1604111f46d177fb1e3f.png",
+    "static/media/gamble.png": "/Qismun/static/media/gamble.8e623ad19ded0ab94c1a.png",
+    "static/media/sarah.png": "/Qismun/static/media/sarah.682d454d0b5a67cb90c4.png",
+    "static/media/khansa.png": "/Qismun/static/media/khansa.1efdfd02af1cdcb479ab.png",
     "static/media/QISMUN LOGO.png": "/Qismun/static/media/QISMUN LOGO.6e78639e5be81eb98d91.png",
-    "static/media/bayyopane.png": "/Qismun/static/media/bayyopane.139bde3209535b1f2d4b.png",
-    "static/media/mikayla.png": "/Qismun/static/media/mikayla.5de99b13e5d40a794916.png",
+    "static/media/dinugadesilva.png": "/Qismun/static/media/dinugadesilva.8b6430a434c7c0ea2b10.png",
+    "static/media/hajira.png": "/Qismun/static/media/hajira.4f24a4b301d15990d896.png",
+    "static/media/mikayla.png": "/Qismun/static/media/mikayla.4fb2f8b95291d9320b62.png",
     "static/media/background3.png": "/Qismun/static/media/background3.9c8224f388f51b069951.png",
-    "static/media/aaraon.png": "/Qismun/static/media/aaraon.3b18dc895a756b236615.png",
     "static/media/background2.png": "/Qismun/static/media/background2.93b46f55947b0f7e49fd.png",
     "static/media/background4.png": "/Qismun/static/media/background4.eb878b565642f6912c68.png",
     "static/media/background.png": "/Qismun/static/media/background.a574109c14027dca7bdb.png",
     "index.html": "/Qismun/index.html",
     "main.eb7b3077.css.map": "/Qismun/static/css/main.eb7b3077.css.map",
-    "main.2a12556c.js.map": "/Qismun/static/js/main.2a12556c.js.map"
+    "main.3cf21301.js.map": "/Qismun/static/js/main.3cf21301.js.map"
   },
   "entrypoints": [
     "static/css/main.eb7b3077.css",
-    "static/js/main.2a12556c.js"
+    "static/js/main.3cf21301.js"
   ]
 }
