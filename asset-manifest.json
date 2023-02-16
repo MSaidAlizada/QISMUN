@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Qismun/static/css/main.eb7b3077.css",
-    "main.js": "/Qismun/static/js/main.3cf21301.js",
+    "main.js": "/Qismun/static/js/main.de2fa05a.js",
     "static/media/aaraon.png": "/Qismun/static/media/aaraon.d9e82fa4b4f3ab0495c7.png",
     "static/media/bayyopane.png": "/Qismun/static/media/bayyopane.1604111f46d177fb1e3f.png",
     "static/media/gamble.png": "/Qismun/static/media/gamble.8e623ad19ded0ab94c1a.png",
@@ -12,15 +12,16 @@
     "static/media/hajira.png": "/Qismun/static/media/hajira.4f24a4b301d15990d896.png",
     "static/media/mikayla.png": "/Qismun/static/media/mikayla.4fb2f8b95291d9320b62.png",
     "static/media/background3.png": "/Qismun/static/media/background3.9c8224f388f51b069951.png",
+    "static/media/instascreenshot.png": "/Qismun/static/media/instascreenshot.6624a9127c96d90acd3d.png",
     "static/media/background2.png": "/Qismun/static/media/background2.93b46f55947b0f7e49fd.png",
     "static/media/background4.png": "/Qismun/static/media/background4.eb878b565642f6912c68.png",
     "static/media/background.png": "/Qismun/static/media/background.a574109c14027dca7bdb.png",
     "index.html": "/Qismun/index.html",
     "main.eb7b3077.css.map": "/Qismun/static/css/main.eb7b3077.css.map",
-    "main.3cf21301.js.map": "/Qismun/static/js/main.3cf21301.js.map"
+    "main.de2fa05a.js.map": "/Qismun/static/js/main.de2fa05a.js.map"
   },
   "entrypoints": [
     "static/css/main.eb7b3077.css",
-    "static/js/main.3cf21301.js"
+    "static/js/main.de2fa05a.js"
   ]
 }
