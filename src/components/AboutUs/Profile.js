@@ -7,6 +7,7 @@ import khansa from "../../images/khansa.png";
 import aaraon from "../../images/aaraon.png";
 import sarah from "../../images/sarah.png";
 import mikayla from "../../images/mikayla.png";
+import gamble from "../../images/gamble.png";
 import { Grid, Typography, Box } from "@mui/material";
 
 const Profiles = () => {
@@ -57,7 +58,7 @@ const Profiles = () => {
                     </Grid>
                     <Grid container spacing={2} sx={{justifyContent: "center"}}>
                         <Grid item xs={3} sx={{textAlign: "center"}}>
-                            <img src={bayyopane} alt="Misspamelagamble" style={{ borderRadius: "50%", height: "175px", width: "175px" }} />
+                            <img src={gamble} alt="Misspamelagamble" style={{ borderRadius: "50%", height: "175px", width: "175px" }} />
                             <Typography sx={{ color: "white", fontFamily: "STIX Two Text" }}>Miss Pamela Gamble</Typography>
                         </Grid>
                     </Grid>
@@ -89,7 +90,7 @@ const Profiles = () => {
                     <Typography sx={{ color: "white", fontFamily: "STIX Two Text" }}>Sarah Said</Typography>
                     <Typography sx={{ color: "white", fontFamily: "STIX Two Text" }}>Deputy President of the General Assembly </Typography>
                     <Typography variant="h4" sx={{ color: "white", fontFamily: "STIX Two Text", marginTop: 2 }}>Director of QISMUN</Typography>
-                    <img src={bayyopane} alt="Miss Pamela Gamble" style={{ borderRadius: "50%", height: "200px" }} />
+                    <img src={gamble} alt="Miss Pamela Gamble" style={{ borderRadius: "50%", height: "200px" }} />
                     <Typography sx={{ color: "white", fontFamily: "STIX Two Text" }}>Miss Pamela Gamble</Typography>
                 </Box>
             </MobileView>

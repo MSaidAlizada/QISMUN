@@ -1,6 +1,6 @@
 import React from "react";
 import "./Conference.css";
-import { Typography, Grid, Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
+import { Typography, Grid, Accordion, AccordionSummary, AccordionDetails, Link } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { isMobile } from "react-device-detect";
 
@@ -28,7 +28,7 @@ const Conference = () => {
             <Typography variant="h3" sx={{ color: "#7cc4dc", fontFamily: "STIX TWO TEXT" }}>The Struggle for Utopia</Typography>
             <Grid container spacing={ isMobile ? 0 : 1}>
                 <Grid item>
-                    <Typography variant="h4" sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Schedule</Typography>
+                    <Typography variant="h4" sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}><u>Schedule</u></Typography>
                     <table>
                         <thead>
                             <tr>
@@ -49,55 +49,55 @@ const Conference = () => {
                     </table>
                 </Grid>
                 <Grid item>
-                    <Typography variant="h4" sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>ISSUES</Typography>
+                    <Typography variant="h4" sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}><u>ISSUES</u></Typography>
                     <Accordion sx={{ backgroundColor: "#28344c"}}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                                <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Security Council</Typography>
+                                <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Security Council</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mark Wijayaratne</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Karen D’Souza</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>The Question of the Leadership in the Ukrainian Government</Typography>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/1mhVP2CQzZz-llqozTyzYf8xNKsR3QpdAr8pSITEu6TI/edit">The Question of the Leadership in the Ukrainian Government</Link>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mark Wijayaratne</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Karen D’Souza</Typography>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion sx={{ backgroundColor: "#28344c"}}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Human Rights Council</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Human Rights Council</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mariamawit Tewodros</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Sera Jamsheed</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Protecting and promoting press freedom in LEDCs and MEDCs</Typography>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/10Je13BWnIUuUbVE29NQPYQtZDNTseXJHIhtHi1LddSc/edit#slide=id.g206ed410dc1_0_0">Protecting and promoting press freedom in LEDCs and MEDCs</Link>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mariamawit Tewodros</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Sera Jamsheed</Typography>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion sx={{ backgroundColor: "#28344c"}}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>General Assembly 4</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>General Assembly 4</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Head Chair: Waleed Gulzar</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Omar Musthakeem</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Combating trafficking and poaching of protected species by organized criminal groups</Typography>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/1qMwo2_pCZWBAzN4z-PcXpd_zBADSDObp5YieFPiJ03Q/edit#slide=id.g206dd91a161_1_0">Combating trafficking and poaching of protected species by organized criminal groups</Link>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Waleed Gulzar</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Omar Musthakeem</Typography>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion sx={{ backgroundColor: "#28344c"}}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>ECOSOC</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>ECOSOC</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Head Chair: Ibraheem Qidwai</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Sara El Sayed</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>The issue of crime rates and its effect on the economy </Typography>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/19dtOrhWdErJAZBWhSU8gBmWWBQIsoPl7-vGGo3FhNlo/edit">The issue of crime rates and its effect on the economy </Link>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Ibraheem Qidwai</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Sara El Sayed</Typography>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion sx={{ backgroundColor: "#28344c"}}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>World Health Assembly</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>World Health Assembly</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mariam Idriss</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Charles Gestin</Typography>
-                            <Typography sx={{ color: "#899fc1", fontFamily: "STIX TWO TEXT" }}>Efforts in increasing sanitations for war-torn areas and refugee camps</Typography>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/1kbKy-0e1vEYAoPrcI1hXHWnHAli8GXzMss41t6LNjQ0/edit#slide=id.g206c8c43955_1_0">Efforts in increasing sanitations for war-torn areas and refugee camps</Link>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mariam Idriss</Typography>
+                            <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Charles Gestin</Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Grid>
