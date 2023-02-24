@@ -55,7 +55,7 @@ const Conference = () => {
                                 <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Security Council</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/1mhVP2CQzZz-llqozTyzYf8xNKsR3QpdAr8pSITEu6TI/edit">The Question of the Leadership in the Ukrainian Government</Link>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT", textDecorationColor: "#eeeee4"}} href="https://docs.google.com/presentation/d/1mhVP2CQzZz-llqozTyzYf8xNKsR3QpdAr8pSITEu6TI/edit">The Question of the Leadership in the Ukrainian Government</Link>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mark Wijayaratne</Typography>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Karen D’Souza</Typography>
                         </AccordionDetails>
@@ -65,7 +65,7 @@ const Conference = () => {
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Human Rights Council</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/10Je13BWnIUuUbVE29NQPYQtZDNTseXJHIhtHi1LddSc/edit#slide=id.g206ed410dc1_0_0">Protecting and promoting press freedom in LEDCs and MEDCs</Link>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT", textDecorationColor: "#eeeee4" }} href="https://docs.google.com/presentation/d/10Je13BWnIUuUbVE29NQPYQtZDNTseXJHIhtHi1LddSc/edit#slide=id.g206ed410dc1_0_0">Protecting and promoting press freedom in LEDCs and MEDCs</Link>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mariamawit Tewodros</Typography>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Sera Jamsheed</Typography>
                         </AccordionDetails>
@@ -75,7 +75,7 @@ const Conference = () => {
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>General Assembly 4</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/1qMwo2_pCZWBAzN4z-PcXpd_zBADSDObp5YieFPiJ03Q/edit#slide=id.g206dd91a161_1_0">Combating trafficking and poaching of protected species by organized criminal groups</Link>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT", textDecorationColor: "#eeeee4" }} href="https://docs.google.com/presentation/d/1qMwo2_pCZWBAzN4z-PcXpd_zBADSDObp5YieFPiJ03Q/edit#slide=id.g206dd91a161_1_0">Combating trafficking and poaching of protected species by organized criminal groups</Link>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Waleed Gulzar</Typography>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Omar Musthakeem</Typography>
                         </AccordionDetails>
@@ -85,7 +85,7 @@ const Conference = () => {
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>ECOSOC</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/19dtOrhWdErJAZBWhSU8gBmWWBQIsoPl7-vGGo3FhNlo/edit">The issue of crime rates and its effect on the economy </Link>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT", textDecorationColor: "#eeeee4" }} href="https://docs.google.com/presentation/d/19dtOrhWdErJAZBWhSU8gBmWWBQIsoPl7-vGGo3FhNlo/edit">The issue of crime rates and its effect on the economy </Link>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Ibraheem Qidwai</Typography>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Sara El Sayed</Typography>
                         </AccordionDetails>
@@ -95,7 +95,7 @@ const Conference = () => {
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>World Health Assembly</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }} href="https://docs.google.com/presentation/d/1kbKy-0e1vEYAoPrcI1hXHWnHAli8GXzMss41t6LNjQ0/edit#slide=id.g206c8c43955_1_0">Efforts in increasing sanitations for war-torn areas and refugee camps</Link>
+                            <Link sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT", textDecorationColor: "#eeeee4"}} href="https://docs.google.com/presentation/d/1kbKy-0e1vEYAoPrcI1hXHWnHAli8GXzMss41t6LNjQ0/edit#slide=id.g206c8c43955_1_0">Efforts in increasing sanitations for war-torn areas and refugee camps</Link>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Head Chair: Mariam Idriss</Typography>
                             <Typography sx={{ color: "#eeeee4", fontFamily: "STIX TWO TEXT" }}>Deputy Chair: Charles Gestin</Typography>
                         </AccordionDetails>
