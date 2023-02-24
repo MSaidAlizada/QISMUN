@@ -21,13 +21,12 @@ function App() {
           <div style={{display: "flex", flexDirection: "column", minHeight: "100vh"}}>
             <Routes>
               <Route path="/Qismun/" element={<Home />}></Route>
-              <Route path="/" element={<Home />}></Route>
-              <Route path="/Qismun/about" element={<div><AboutUs /> {isMobile ? (<Footer/>) : (<></>)}</div>} />
-              <Route path="/Qismun/conference" element={<div><Conference /> {isMobile ? (<Footer/>) : (<></>)}</div>} />
-              <Route path="/Qismun/press" element={<div><Press /> {isMobile ? (<Footer/>) : (<></>)}</div>} />
+              <Route path="/Qismun/about" element={<AboutUs />} />
+              <Route path="/Qismun/conference" element={<Conference/>} />
+              <Route path="/Qismun/press" element={<Press/>} />
             </Routes>
           </div>
-
+          {isMobile ? (<Footer/>) : (<></>)}
         </BrowserRouter>
       </div> 
     </div>
