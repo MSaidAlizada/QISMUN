@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Qismun/static/css/main.eb7b3077.css",
-    "main.js": "/Qismun/static/js/main.1da04a6d.js",
+    "main.js": "/Qismun/static/js/main.b3c33aff.js",
     "static/media/aaraon.png": "/Qismun/static/media/aaraon.d9e82fa4b4f3ab0495c7.png",
     "static/media/bayyopane.png": "/Qismun/static/media/bayyopane.1604111f46d177fb1e3f.png",
     "static/media/gamble.png": "/Qismun/static/media/gamble.8e623ad19ded0ab94c1a.png",
     "static/media/sarah.png": "/Qismun/static/media/sarah.682d454d0b5a67cb90c4.png",
     "static/media/khansa.png": "/Qismun/static/media/khansa.1efdfd02af1cdcb479ab.png",
     "static/media/QISMUN LOGO.png": "/Qismun/static/media/QISMUN LOGO.6e78639e5be81eb98d91.png",
+    "static/media/pdf.pdf": "/Qismun/static/media/pdf.ef06b8640f3201deb4e8.pdf",
     "static/media/dinugadesilva.png": "/Qismun/static/media/dinugadesilva.8b6430a434c7c0ea2b10.png",
     "static/media/hajira.png": "/Qismun/static/media/hajira.4f24a4b301d15990d896.png",
     "static/media/mikayla.png": "/Qismun/static/media/mikayla.4fb2f8b95291d9320b62.png",
@@ -18,10 +19,10 @@
     "static/media/background.png": "/Qismun/static/media/background.a574109c14027dca7bdb.png",
     "index.html": "/Qismun/index.html",
     "main.eb7b3077.css.map": "/Qismun/static/css/main.eb7b3077.css.map",
-    "main.1da04a6d.js.map": "/Qismun/static/js/main.1da04a6d.js.map"
+    "main.b3c33aff.js.map": "/Qismun/static/js/main.b3c33aff.js.map"
   },
   "entrypoints": [
     "static/css/main.eb7b3077.css",
-    "static/js/main.1da04a6d.js"
+    "static/js/main.b3c33aff.js"
   ]
 }
